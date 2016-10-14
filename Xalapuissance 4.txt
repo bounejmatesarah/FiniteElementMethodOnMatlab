@@ -1,0 +1,22 @@
+>> n=10;
+>> [A,u]=solutin_app2(n);
+>> plot(u,'b')
+>>  hold on
+>> legend('n=10')
+>> hold on
+>> n=20;
+>> [A,u]=solutin_app2(n);
+>> plot(u,'k')
+>> legend('n=20')
+>> legend('n=10','n=20')
+>> n=100;
+>> [A,u]=solutin_app2(n);
+>> plot(u,'m')
+>> legend('n=10','n=20','n=100')
+>> x=linspace(0,1,100);
+>> [y]=v2(x);
+>> plot(y,'y')
+>> legend('n=10','n=20','n=100','sol exacte')
+>> 
+set(gca,'XTickLabel',x_tick_label); 
+x_tick_label{11} = 1
